@@ -1,0 +1,14 @@
+CLIENTES
+-id
+-apellidos
+-nombres
+-dni
+-correo
+-telefono
+
+      - SPRING_MAIL_USERNAME=4f76126313a5c7
+      - SPRING_MAIL_PASSWORD=156db222937197
+
+curl -X POST http://localhost:9100/api/users \
+  -H "Content-Type: application/json" \
+  -d '{"name":"Juan Perez","email":"juan@example.com","phone":"123456789"}'
